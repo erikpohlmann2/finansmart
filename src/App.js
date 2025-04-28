@@ -1,12 +1,14 @@
 import './App.css';
+import Beneficios from './components/Beneficios/Beneficios';
 import Header from './components/Header/Header';
+import Hero from "./components/Hero/Hero";
 
 function App() {
   return (
     <div>
       <Header />
-      <h1>Bem-vindo à minha página React!</h1>
-      <p>Essa é a primeira página feita em React.</p>
+      <Hero />
+      <Beneficios />
     </div>
   );
 }
