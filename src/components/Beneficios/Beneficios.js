@@ -1,6 +1,6 @@
 import React from 'react';
 import './Beneficios.css';
-import { FaFacebook, FaCalculator  } from 'react-icons/fa';
+import { FaCalculator  } from 'react-icons/fa';
 import { FiTarget } from "react-icons/fi";
 import { TbReportAnalytics } from "react-icons/tb";
 import { IoIosNotifications  } from "react-icons/io";
