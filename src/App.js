@@ -1,14 +1,16 @@
 import './App.css';
-import Beneficios from './components/Beneficios/Beneficios';
+import Benefits from './components/Benefits/Benefits';
 import Header from './components/Header/Header';
 import Hero from "./components/Hero/Hero";
+import Prints from './components/Prints/Prints';
 
 function App() {
   return (
-    <div>
+    <div className='container-content'>
       <Header />
       <Hero />
-      <Beneficios />
+      <Benefits />
+      <Prints />
     </div>
   );
 }

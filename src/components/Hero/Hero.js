@@ -8,7 +8,7 @@ const Hero = () => {
   return (   
 
       <div className="hero-container">
-        <p className='hero-title'>Controle suas finanças de forma simples e inteligente.</p>
+        <h1>Controle suas finanças de forma simples e inteligente.</h1>
         <span className="hero-subtitle">O aplicativo que ajuda você a economizar e investir melhor.</span>
         <Button text="BAIXAR AGORA" onClick={() => console.log('Button clicked!')} />
         <Image src={HeroImage} alt="Hero Image" className="hero-image" width={200}/>

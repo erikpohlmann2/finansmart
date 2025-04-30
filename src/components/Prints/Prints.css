@@ -1,0 +1,36 @@
+.prints-background {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 60%;
+    z-index: 0;
+    background: #0675d5;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 48%);
+}
+
+.prints-container-inside {
+    display: flex;
+    justify-content: center;
+}
+
+.img-mobile {
+    position: relative;
+    z-index: 1;
+    float: right;
+}
+
+.prints-title {
+    z-index: 1;
+    position: relative;
+    margin-top: 3rem;    
+}
+
+.prints-title h1 {
+    color: #fff
+}
+
+.prints-title span {
+    color: #d2d2d2
+}
+
+
